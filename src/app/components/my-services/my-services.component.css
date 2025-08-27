@@ -1,0 +1,10 @@
+:host {
+    .coming {
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 120px;
+        margin-bottom: 100px;
+        font-size: 64px;
+        font-family: "Questrial", sans-serif;
+    }
+}
