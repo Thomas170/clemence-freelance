@@ -26,6 +26,20 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Nunito';
+    src: url('assets/fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NunitoBold';
+    src: url('assets/fonts/Nunito-Bold.ttf') format('truetype');
+    font-weight: normal;
+}
+
 body {
     margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-color);
 }
