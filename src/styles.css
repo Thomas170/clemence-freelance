@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary-color: #D45C2A;
+    --secondary-color: #FAC0A0;
+    --secondary-color-hover: #F4A479;
+    --tertiary-color: #FFD9C5;
+    --background-color: #FFF4F2;
+}
+
+@font-face {
+    font-family: 'PatrickHandSC';
+    src: url('assets/fonts/PatrickHandSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('assets/fonts/poppins.bold.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('assets/fonts/Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}

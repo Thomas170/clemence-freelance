@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    height: 100px;
+
+    .title {
+        font-size: 32px;
+        font-family: 'PatrickHandSC', sans-serif;
+        width: 110px;
+        color: var(--primary-color);
+        margin-left: 32px;
+        line-height: 30px;
+    }
+}
