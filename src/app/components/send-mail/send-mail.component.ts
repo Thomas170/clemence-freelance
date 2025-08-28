@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './send-mail.component.css'
 })
 export class SendMailComponent {
+  openMail() {
+    const email = encodeURIComponent('clemence.jomain@icloud.com')
+    const subject = encodeURIComponent('Demande de contact');
 
+    window.location.href = "mailto:" + email + "?subject=" + subject;
+  }
 }

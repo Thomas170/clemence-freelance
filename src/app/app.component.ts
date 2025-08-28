@@ -14,7 +14,7 @@ import { FooterComponent } from "./components/footer/footer.component";
     MyServicesComponent,
     AboutMeComponent,
     SendMailComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

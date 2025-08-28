@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  copy(value: string, name: string) {
+    navigator.clipboard.writeText(value);
+    alert(name + ' copiée dans le presse-papier');    
+  }
 }
