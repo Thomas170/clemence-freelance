@@ -1,0 +1,37 @@
+:host {
+    width: 100%;
+    height: 200px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 160px 0;
+
+    .title {
+        font-family: 'NunitoBold', sans-serif;
+        font-size: 32px;
+        color: var(--primary-color);
+        margin: 0;
+    }
+
+    .mail-button {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white;
+        letter-spacing: 1px;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 4px;
+        padding: 12px 30px;
+        transition: all 0.3s ease;
+    }
+
+    .mail-button:hover {
+        background-color: var(--primary-color-hover);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+}
