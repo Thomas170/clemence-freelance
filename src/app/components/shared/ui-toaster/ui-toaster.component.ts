@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { UiToasterService } from './ui-toaster.service';
 
 @Component({
-  selector: 'app-ui-toaster',
+  selector: 'ui-toaster',
   standalone: true,
   imports: [],
   templateUrl: './ui-toaster.component.html',

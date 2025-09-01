@@ -1,0 +1,47 @@
+:host {
+    height: 400px;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+    .media-container {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .media-element {
+        width: 100px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "NunitoBold", sans-serif;
+        font-size: 18px;
+    }
+
+    .media-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact {
+        width: 100%;
+        font-family: "NunitoBold", sans-serif;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .contact-value {
+        font-family: "Nunito", sans-serif;
+        font-style: italic;
+        cursor: pointer;
+    }
+}
