@@ -22,9 +22,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         font-family: "NunitoBold", sans-serif;
         font-size: 18px;
+        text-align: center;
     }
 
     .media-image {

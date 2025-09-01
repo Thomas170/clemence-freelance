@@ -44,3 +44,7 @@ body {
     font-family: 'Nunito', sans-serif;
     color: var(--primary-color);
 }
+
+.bold {
+    font-family: 'NunitoBold', sans-serif;
+}
