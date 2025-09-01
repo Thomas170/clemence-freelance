@@ -76,6 +76,7 @@
         border-radius: 4px;
         padding: 16px 20px;
         margin: 40px 200px 0 auto;
+        text-decoration: none;
         transition: all 0.3s ease;
     }
 
