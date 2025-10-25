@@ -13,30 +13,35 @@
     font-family: 'PatrickHandSC';
     src: url('assets/fonts/PatrickHandSC-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'PoppinsBold';
     src: url('assets/fonts/poppins.bold.ttf') format('truetype');
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Questrial';
     src: url('assets/fonts/Questrial-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Nunito';
     src: url('assets/fonts/Nunito-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'NunitoBold';
     src: url('assets/fonts/Nunito-Bold.ttf') format('truetype');
     font-weight: normal;
+    font-display: swap;
 }
 
 body {
