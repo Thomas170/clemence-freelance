@@ -18,12 +18,12 @@ export class SeoService {
 
   updateMetaTags(config: MetaConfig) {
     this.title.setTitle(config.title);
+
     this.meta.updateTag({ 
       name: 'description', 
       content: config.description 
     });
 
-    // Keywords
     if (config.keywords) {
       this.meta.updateTag({ 
         name: 'keywords', 

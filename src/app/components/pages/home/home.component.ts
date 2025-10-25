@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
       description: 'Freelance en communication à Lyon spécialisée en stratégie digitale, community management et création de contenu. Accompagnement personnalisé pour votre visibilité.',
       keywords: 'freelance communication lyon, community manager lyon, stratégie digitale lyon, communication digitale rhône-alpes',
       url: 'https://clemence-jomain.com',
-      image: 'https://clemence-jomain.com/assets/og-image.jpg'
+      image: 'https://clemence-jomain.com/me.png'
     });
   }
 }
