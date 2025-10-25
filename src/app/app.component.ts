@@ -11,10 +11,9 @@ import { UiToasterComponent } from "./components/shared/ui-toaster/ui-toaster.co
     FooterComponent,
     RouterOutlet,
     UiToasterComponent
-],
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
 }
