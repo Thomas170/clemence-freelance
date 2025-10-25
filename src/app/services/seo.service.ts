@@ -35,7 +35,7 @@ export class SeoService {
     if (config.keywords) {
       this.meta.updateTag({ 
         name: 'canonical', 
-        href: 'https://www.clemence-jomain.com/'
+        href: 'https://www.clemence-jomain.com/' + config.page
       });
     }
 

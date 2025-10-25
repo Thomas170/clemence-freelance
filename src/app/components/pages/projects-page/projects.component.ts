@@ -14,7 +14,7 @@ export class ProjectsComponent {
   ngOnInit() {
     this.seo.updateMetaTags({
       title: 'Clémence - Freelance Communication à Lyon | Stratégie Digitale',
-      description: 'Freelance en communication à Lyon spécialisée en stratégie digitale, community management et création de contenu. Accompagnement personnalisé pour votre visibilité.',
+      description: 'Découvrez mes projets en communication et mes réalisations à Lyon.',
       keywords: 'freelance communication lyon, community manager lyon, stratégie digitale lyon, communication digitale rhône-alpes',
       url: 'https://clemence-jomain.com',
       image: 'https://clemence-jomain.com/me.png',
