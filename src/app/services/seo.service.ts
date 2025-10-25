@@ -7,6 +7,7 @@ type MetaConfig = {
   keywords?: string;
   image?: string;
   url?: string;
+  page: string;
 };
 
 @Injectable({
@@ -28,6 +29,13 @@ export class SeoService {
       this.meta.updateTag({ 
         name: 'keywords', 
         content: config.keywords 
+      });
+    }
+
+    if (config.keywords) {
+      this.meta.updateTag({ 
+        name: 'canonical', 
+        href: 'https://www.clemence-jomain.com/'
       });
     }
 
