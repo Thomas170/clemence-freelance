@@ -1,11 +1,23 @@
-<img 
-    [src]="imagePath()" 
-    [alt]="imageAlt()"
-    [class.image-full]="imageType() === 'full'"
-    [class.right-card]="imageType() === 'decor'"
-    [width]="imageSize().width"
-    [height]="imageSize().height"
-    [loading]="isFirst() ? 'eager' : 'lazy'"
-    [decoding]="isFirst() ? 'auto' : 'async'"
-    [attr.fetchpriority]="isFirst() ? 'high' : 'auto'"
-/>
+@if (isFirst()) {
+    <img 
+        [src]="imagePath()" 
+        [alt]="imageAlt()"
+        [class.image-full]="imageType() === 'full'"
+        [class.right-card]="imageType() === 'decor'"
+        [width]="imageSize().width"
+        [height]="imageSize().height"
+        loading="eager"
+        fetchpriority="high"
+    />
+} @else {
+    <img 
+        [src]="imagePath()" 
+        [alt]="imageAlt()"
+        [class.image-full]="imageType() === 'full'"
+        [class.right-card]="imageType() === 'decor'"
+        [width]="imageSize().width"
+        [height]="imageSize().height"
+        loading="lazy"
+        decoding="async"
+    />
+}
