@@ -1,0 +1,10 @@
+# Robots.txt - Clémence Jomain Communication Lyon
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.clemence-jomain.com/sitemap.xml
+
+# Bloquer les fichiers inutiles (optionnel)
+Disallow: /api/
+Disallow: /*.json$
