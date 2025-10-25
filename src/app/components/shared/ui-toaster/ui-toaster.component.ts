@@ -12,7 +12,7 @@ export class UiToasterComponent {
   message: string | null = null;
 
   constructor(private toaster: UiToasterService) {
-    this.toaster.message$.subscribe((msg) => {
+    this.toaster.message$.subscribe((msg: string | null) => {
       this.message = msg;
     });
   }

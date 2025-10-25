@@ -1,0 +1,11 @@
+<img 
+    [src]="imagePath()" 
+    [alt]="imageAlt()"
+    [class.image-full]="imageType() === 'full'"
+    [class.right-card]="imageType() === 'decor'"
+    [width]="imageSize().width"
+    [height]="imageSize().height"
+    [loading]="isFirst() ? 'eager' : 'lazy'"
+    [decoding]="isFirst() ? 'auto' : 'async'"
+    [attr.fetchpriority]="isFirst() ? 'high' : 'auto'"
+/>

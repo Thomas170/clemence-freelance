@@ -1,10 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { UiToasterService } from '../../shared/ui-toaster/ui-toaster.service';
+import { UiImage } from "../ui-image/ui-image";
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [],
+  imports: [UiImage],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
