@@ -1,7 +1,7 @@
 :host {
     display: flex;
     align-items: center;
-    background-color: var(--secondary-color);
+    background-color: var(--banner-color);
     height: 100px;
 
     .title {

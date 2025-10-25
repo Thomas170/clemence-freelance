@@ -3,10 +3,11 @@
 :root {
     --primary-color: #D45C2A;
     --primary-color-hover:rgb(218, 77, 17);
-    --secondary-color: #FAC0A0;
-    --secondary-color-hover: #F4A479;
+    --secondary-color: #fda87a;
+    --secondary-color-hover: #ed854c;
     --tertiary-color: #FFD9C5;
     --background-color: #FFF4F2;
+    --banner-color: #ffd3bb;
 }
 
 @font-face {
