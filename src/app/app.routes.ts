@@ -6,5 +6,4 @@ import { ProjectsComponent } from './components/pages/projects/projects.componen
 export const routes: Routes = [{ path: '', component: HomeComponent },
     { path: 'services', component: ServicesComponent },
     { path: 'projects', component: ProjectsComponent },
-    { path: '**', redirectTo: '' }
 ];
