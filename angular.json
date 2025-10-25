@@ -16,6 +16,11 @@
             "outputPath": "dist/clemence-freelance",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "src/server.ts"
+            },
             "polyfills": [
               "zone.js"
             ],
@@ -31,7 +36,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "outputMode": "server"
           },
           "configurations": {
             "production": {
