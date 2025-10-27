@@ -1,0 +1,50 @@
+:host {
+    width: 100%;
+    margin: 60px 0;
+
+    .card {
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+        width: 94%;
+        border-radius: 8px;
+        box-shadow: 2px 2px 8px 2px rgba(172, 172, 172, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        line-height: 20px;
+        position: relative;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        width: 64%;
+        height: calc(100% - 2rem);
+        margin: 1rem 0 1rem 1rem;
+        box-sizing: border-box;
+        border-width: 1.5px 0 1.5px 1.5px;
+        border-style: solid;
+        border-color: var(--design-secondary);
+        border-radius: 8px 0 0 8px;
+        font-family: 'SulphurPoint', sans-serif;
+        font-size: 20px;
+        line-height: 1.6rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-me-decor {
+        width: 36%;
+        height: 100%;
+        border-radius: 0 8px 8px 0;
+        overflow: hidden;
+    }
+
+    .discuss-button {
+        margin: 2rem;
+    }
+}

@@ -4,10 +4,10 @@ import { Meta, Title } from '@angular/platform-browser';
 type MetaConfig = {
   title: string;
   description: string;
+  page: string;
   keywords?: string;
   image?: string;
   url?: string;
-  page: string;
 };
 
 @Injectable({
@@ -32,7 +32,7 @@ export class SeoService {
       });
     }
 
-    if (config.keywords) {
+    if (config.page) {
       this.meta.updateTag({ 
         name: 'canonical', 
         href: 'https://www.clemence-jomain.com/' + config.page

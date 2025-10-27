@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #D45C2A;
+    --primary-color-hover:rgb(187, 62, 8);
+    --secondary-color: #fda87a;
+    --secondary-color-hover: #ed854c;
+    --tertiary-color: #FFD9C5;
+    --background-color: #FFF4F2;
+    --banner-color: #ffd3bb;
+
+    --design-default: #393535;
+    --design-primary: #9D585C;
+    --design-primary-hover: #8f4448;
+    --design-secondary: #C292B2;
+    --design-secondary-hover: #c473a9;
+    --design-background: #F6D5C4;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'PatrickHandSC';
+    src: url('../../assets/fonts/PatrickHandSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../assets/fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NunitoBold';
+    src: url('../../assets/fonts/Nunito-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phudu';
+    src: url('../../assets/fonts/Phudu.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SulphurPoint';
+    src: url('../../assets/fonts/SulphurPoint/SulphurPoint-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SulphurPoint';
+    src: url('../../assets/fonts/SulphurPoint/SulphurPoint-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SulphurPoint';
+    src: url('../../assets/fonts/SulphurPoint/SulphurPoint-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-display: swap;
+}

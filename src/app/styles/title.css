@@ -1,0 +1,34 @@
+.ui-title {
+  font-family: 'Phudu', sans-serif;
+  text-transform: uppercase;
+  color: var(--design-primary);
+}
+
+.ui-title-with-background {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    right: -32px;
+    bottom: 0;
+    height: 0.7em;
+    background-color: var(--design-background);
+    z-index: -1;
+  }
+}
+
+.small {
+  font-size: 1.5rem;
+}
+
+.medium {
+  font-size: 2rem;
+}
+
+.large {
+  font-size: 2.5rem;
+}

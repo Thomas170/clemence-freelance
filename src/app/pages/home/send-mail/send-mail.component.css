@@ -1,0 +1,19 @@
+:host {
+    width: 140%;
+    height: 300px;
+    position: relative;
+    background-color: var(--design-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 160px 0;
+
+    .title {
+        font-family: 'NunitoBold', sans-serif;
+        font-size: 32px;
+        color: var(--primary-color);
+        margin: 0;
+    }
+}

@@ -1,0 +1,23 @@
+<div class="media-container">
+    <div class="media-element">
+        <a [href]="linkedin" target="_blank" rel="noopener noreferrer">
+            <ui-image imageName="linkedin" imageType="icon" imageAlt="Icon LinkedIn" imageExt="svg" />
+        </a>
+        <p>LinkedIn</p>
+    </div>
+    <div class="media-element">
+        <ui-image imageName="instagram" imageType="icon" imageAlt="Icon Instagram" imageExt="svg" />
+        <p>Instagram (à venir)</p>
+    </div>
+    <div class="media-element">
+        <ui-image imageName="youtube" imageType="icon" imageAlt="Icon Youtube" imageExt="svg" />
+        <p>Youtube (à venir)</p>
+    </div>
+</div>
+
+<div class="contact">
+    <p>Téléphone : <span (click)="copy('0649306866', 'Numéro de téléphone')" class="contact-value">06.49.30.68.66</span></p>
+    <p>Email : <span (click)="copy('clemence.jomain@icloud.com', 'Email')" class="contact-value">clemence.jomain{{'@'}}icloud.com</span></p>
+</div>
+
+<p class="copyright">© 2025 Clémence Jomain - Tous droits réservés</p>

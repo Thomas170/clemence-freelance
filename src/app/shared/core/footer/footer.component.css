@@ -1,0 +1,48 @@
+:host {
+    height: 550px;
+    width: 100%;
+    background-color: var(--design-secondary);
+    color: white;
+    font-family: 'SulphurPoint', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: border-box;
+
+    .media-container {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .media-element {
+        width: 100px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+    }
+
+    .media-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .contact-value {
+        font-style: italic;
+        cursor: pointer;
+    }
+}

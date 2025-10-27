@@ -1,42 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
-
-:root {
-    --primary-color: #D45C2A;
-    --primary-color-hover:rgb(218, 77, 17);
-    --secondary-color: #fda87a;
-    --secondary-color-hover: #ed854c;
-    --tertiary-color: #FFD9C5;
-    --background-color: #FFF4F2;
-    --banner-color: #ffd3bb;
-}
-
-@font-face {
-    font-family: 'PatrickHandSC';
-    src: url('assets/fonts/PatrickHandSC-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('assets/fonts/Nunito-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'NunitoBold';
-    src: url('assets/fonts/Nunito-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-display: swap;
-}
+@import './app/styles/colors.css';
+@import './app/styles/fonts.css';
+@import './app/styles/title.css';
+@import './app/styles/link.css';
+@import './app/styles/button.css';
 
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    color: var(--primary-color);
-}
-
-.bold {
-    font-family: 'NunitoBold', sans-serif;
+    color: var(--design-default);
 }

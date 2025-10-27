@@ -1,0 +1,12 @@
+:host {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    .contact-button {
+        position: absolute;
+        bottom: 30%;
+        left: 5%;
+        font-size: 1.8rem;
+    }
+}
