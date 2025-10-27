@@ -1,0 +1,9 @@
+<div class="card-border">
+    <ui-image [imageName]="image()" imageType="card" [imageAlt]="'Card ' + title()" class="card-image" imageExt="svg" />
+
+    <h3 uiTitle size="small" class="card-title">{{ title() }}</h3>
+
+    <div class="card-content">
+        <ng-content></ng-content>
+    </div>
+</div>
