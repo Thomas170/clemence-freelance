@@ -6,17 +6,18 @@
     margin-bottom: 120px;
     position: relative;
 
-    .services-container {
+    .cards-container {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
         flex-wrap: wrap;
         margin-top: 10px;
         gap: 2rem;
+        padding: 0 2rem;
     }
     
     .card {
-        width: calc(50% - 2rem);
+        flex: 1;
     }
 
     .services-button {

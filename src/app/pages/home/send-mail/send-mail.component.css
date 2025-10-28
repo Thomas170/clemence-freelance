@@ -1,5 +1,5 @@
 :host {
-    width: 140%;
+    width: 100vw;
     height: 300px;
     position: relative;
     background-color: var(--design-background);
