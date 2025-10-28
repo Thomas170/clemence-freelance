@@ -3,10 +3,13 @@ import { UiPageLayoutComponent } from "../../shared/design/ui-page-layout/ui-pag
 import { SeoService } from '../../services/seo.service';
 import { UiTitleDirective } from "../../shared/directives/ui-title.directive";
 import { UiCard } from "../../shared/design/ui-card/ui-card";
+import { UiHighlight } from "../../shared/design/ui-highlight/ui-highlight";
+import { UiButtonDirective } from "../../shared/directives/ui-button.directive";
+import { UiImage } from "../../shared/design/ui-image/ui-image";
 
 @Component({
   selector: 'app-services',
-  imports: [UiPageLayoutComponent, UiTitleDirective, UiCard],
+  imports: [UiPageLayoutComponent, UiTitleDirective, UiCard, UiHighlight, UiButtonDirective, UiImage],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
 })

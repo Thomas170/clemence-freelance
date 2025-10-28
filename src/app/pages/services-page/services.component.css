@@ -6,4 +6,21 @@
         align-items: stretch;
         padding: 0 2rem;
     }
+
+    .engage-text {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .engage-image {
+        margin-top: 2rem;
+    }
+
+    .engage-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        width: 100%;
+    }
 }

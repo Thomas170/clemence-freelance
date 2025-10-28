@@ -37,6 +37,11 @@ export class UiImage {
           width: 80,
           height: 80,
         };
+      case ImageType.SmallIcon:
+        return {
+          width: 32,
+          height: 32,
+        };
       default:
         return {
           width: 800,
@@ -51,4 +56,5 @@ export enum ImageType {
   Card = 'card',
   Decor = 'decor',
   Icon = 'icon',
+  SmallIcon = 'small_icon',
 }
