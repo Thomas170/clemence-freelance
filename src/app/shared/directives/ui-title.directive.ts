@@ -6,6 +6,7 @@ import { booleanAttribute, Directive, ElementRef, input, OnInit, Renderer2 } fro
 })
 export class UiTitleDirective implements OnInit {
     readonly hasBackground = input(false, { transform: booleanAttribute });
+    readonly isCenter = input(false, { transform: booleanAttribute });
     readonly size = input<'small' | 'medium' | 'large'>('medium');
     
     constructor(private el: ElementRef, private renderer: Renderer2) {
@@ -14,11 +15,17 @@ export class UiTitleDirective implements OnInit {
 
     ngOnInit() {
         this.renderer.addClass(this.el.nativeElement, this.size());
-        
+
         if (this.hasBackground()) {
             this.renderer.addClass(this.el.nativeElement, 'ui-title-with-background');
         } else {
             this.renderer.removeClass(this.el.nativeElement, 'ui-title-with-background');
+        }
+
+        if (this.isCenter()) {
+            this.renderer.addClass(this.el.nativeElement, 'ui-title-is-center');
+        } else {
+            this.renderer.removeClass(this.el.nativeElement, 'ui-title-is-center');
         }
     }
 }

@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
     transition: all 0.3s ease;
 
     &:hover {
@@ -14,12 +15,27 @@
 
     .card-border {
         border: 1px solid var(--design-secondary);
+        height: calc(100% - 40px);
         width: calc(100% - 40px);
         margin: 20px 0;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+
+    .row-icon {
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
     }
 
     .card-image {
@@ -32,12 +48,19 @@
         margin: 20px 0 20px 0;
     }
 
+    .row-title {
+        width: calc(100% - 100px);
+    }
+
     .card-content {
         padding: 20px 10px;
-        height: 400px;
         box-sizing: border-box;
         text-align: left;
         font-size: 18px;
         font-family: 'SulphurPoint', sans-serif;
+    }
+
+    .row-content {
+        padding: 0 10px 20px 10px;
     }
 }

@@ -2,6 +2,7 @@
   font-family: 'Phudu', sans-serif;
   text-transform: uppercase;
   color: var(--design-primary);
+  margin-right: auto;
 }
 
 .ui-title-with-background {
@@ -19,6 +20,11 @@
     background-color: var(--design-background);
     z-index: -1;
   }
+}
+
+.ui-title-is-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .small {

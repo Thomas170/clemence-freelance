@@ -1,9 +1,10 @@
 <div class="card-border">
-    <ui-image [imageName]="image()" imageType="card" [imageAlt]="'Card ' + title()" class="card-image" imageExt="svg" />
+    <div [class.row-icon]="isRowIcon()" class="header">
+        <ui-image [imageName]="image()" [imageType]="isRowIcon() ? 'icon' : 'card'" [imageAlt]="'Card ' + title()" class="card-image" imageExt="svg" />
+        <h3 uiTitle size="small" class="card-title" [class.row-title]="isRowIcon()">{{ title() }}</h3>
+    </div>
 
-    <h3 uiTitle size="small" class="card-title">{{ title() }}</h3>
-
-    <div class="card-content">
+    <div class="card-content" [class.row-content]="isRowIcon()">
         <ng-content></ng-content>
     </div>
 </div>

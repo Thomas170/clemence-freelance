@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { booleanAttribute, Component, input } from '@angular/core';
 import { UiImage } from "../ui-image/ui-image";
 import { UiTitleDirective } from "../../directives/ui-title.directive";
 
@@ -11,4 +11,5 @@ import { UiTitleDirective } from "../../directives/ui-title.directive";
 export class UiCard {
   readonly title = input<string>();
   readonly image = input<string>('event');
+  readonly isRowIcon = input(false, { transform: booleanAttribute });
 }
