@@ -10,5 +10,5 @@ import { UiLinkDirective } from "../../directives/ui-link.directive";
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
+  readonly behanceLink = 'https://www.behance.net/';
 }

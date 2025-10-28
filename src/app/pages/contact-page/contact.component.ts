@@ -3,12 +3,12 @@ import { UiPageLayoutComponent } from "../../shared/design/ui-page-layout/ui-pag
 import { SeoService } from '../../services/seo.service';
 
 @Component({
-  selector: 'app-projects',
+  selector: 'app-contact',
   imports: [UiPageLayoutComponent],
-  templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  templateUrl: './contact.component.html',
+  styleUrl: './contact.component.css'
 })
-export class ProjectsComponent {
+export class ContactComponent {
   private seo = inject(SeoService);
 
   ngOnInit() {
@@ -18,7 +18,7 @@ export class ProjectsComponent {
       keywords: 'freelance communication lyon, community manager lyon, stratégie digitale lyon, communication digitale rhône-alpes',
       url: 'https://clemence-jomain.com',
       image: 'https://clemence-jomain.com/me.png',
-      page: 'projects'
+      page: 'contact'
     });
   }
 }
